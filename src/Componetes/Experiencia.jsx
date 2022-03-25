@@ -13,7 +13,7 @@ const Experiencia = (props) => {
     setOpen(true);
   };
 
-  function createData(nro, ocupacion, lugar, start, end) {
+  function createData(ocupacion, lugar, start, end) {
     return { ocupacion, lugar, start, end };
   }
   const rows = [
