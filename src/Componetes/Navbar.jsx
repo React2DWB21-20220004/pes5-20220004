@@ -70,7 +70,7 @@ const BarraNavegacion = (props) => {
           variant="permanent"
           anchor="left"
         >
-          <div>
+          <div style={{ margin: "0 auto" }}>
             <img style={{ width: "8vw" }} src={logo} alt="logo" />
           </div>
 
